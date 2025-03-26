@@ -31,9 +31,12 @@
         <a href="index.html" class="navbar-brand ml-lg-3">
             <h1 class="m-0 display-5"><span class="text-primary">Shiza</span>Shamin</h1>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </a>
+        <!-- <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            
+        </button> -->
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Home</a>
@@ -48,7 +51,27 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
+<!-- --offcanvas Start--- -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title m-0 display-5" id="offcanvasExampleLabel">
+       <span class="text-primary">Shiza</span>Shamin
+      </h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body bg-primary text-light fw-bold">
+        <div class="navbar-nav m-auto py-0">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#qualification" class="nav-item nav-link">Quality</a>
+            <a href="#skill" class="nav-item nav-link">Skill</a>
+            <a href="#service" class="nav-item nav-link">Service</a>
+            <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+    </div>
+  </div>
+<!-- --offcanvas End --- -->
 
     <!-- Video Modal Start -->
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

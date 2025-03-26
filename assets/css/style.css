@@ -9982,3 +9982,11 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+.offcanvas-body a:hover{
+  background: #fff;
+  color: #000 !important;
+  text-align: center !important;
+}
+.offcanvas-start{
+  width: 300px !important;
+}
